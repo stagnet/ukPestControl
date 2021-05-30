@@ -120,6 +120,27 @@ address {
   line-height: inherit;
 }
 
+.floating-button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7abaff;
+  color: #218838;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  font-size: 25px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  z-index: 999;
+  transition: background-color 0.25s;
+}
+.floating-button:active {
+  background-color: #7d5fff;
+}
+
 ol,
 ul,
 dl {
